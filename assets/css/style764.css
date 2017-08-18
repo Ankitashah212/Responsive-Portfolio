@@ -1,35 +1,39 @@
 /* making changes for 764 resolution*/
 
+@media only screen and (max-width: 764px) {
 /* general */
 
 /* set container width to 764*/
-.container {
-  width: 100%;
-  max-width: 764px;
-  margin: 0 auto;
-  clear: both;
-}
+  .container {
+    width: 100%;
+    max-width: 764px;
+    margin: 0 auto;
+    clear: both;
+  }
 
 /*adjust floats */
 
-nav {
-  float: left;
-  margin-top: 25px;
-}
+  nav {
+    float: left;
+    margin-top: 25px;
+  }
 
 /* adjust margin for float left - from right*/
-nav a:first-child{
-  margin-left: 130px;
-}
+  nav a:first-child{
+    margin-left: 130px;
+  }
 
 /* sidebar */
 /*adjusting side width to match main content and adjusting float */
 
-.sidebar {
-  float: left;
-  max-width: 650px;
+  .sidebar {
+    float: left;
+    max-width: 650px;
+    margin-left: 20px;
+  }
+/* adjusting margins on sidebar and main section to match the solution photoes */
+  .main-section {
+    margin: 0 0 40px 20px;
+  }
+
 }
-
-
-
-
