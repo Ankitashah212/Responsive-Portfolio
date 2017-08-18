@@ -10,7 +10,7 @@
     margin: 0 auto;
     clear: both;
   }
-
+  
 /*adjust floats */
 
   nav {
@@ -33,7 +33,12 @@
   }
 /* adjusting margins on sidebar and main section to match the solution photoes */
   .main-section {
+    width: 100%;
+    max-width: 650px;
     margin: 0 0 40px 20px;
+  }
+  #logo {
+    margin-left: 20px;
   }
 
 }
