@@ -1,16 +1,20 @@
-/* making changes for 764 resolution*/
+/* making changes for 768 resolution*/
 
-@media only screen and (max-width: 764px) {
+@media only screen and (max-width: 768px) {
 /* general */
 
-/* set container width to 764*/
+/* set container width to 768*/
   .container {
     width: 100%;
-    max-width: 764px;
+    max-width: 768px;
     margin: 0 auto;
     clear: both;
   }
   
+  /* adjust image width and margins */
+  .auth-image {
+    width: 340px;
+  }
 /*adjust floats */
 
   nav {
@@ -19,7 +23,7 @@
 
 /* adjust margin for float left - from right*/
   nav a:first-child{
-    margin-left: 130px;
+    margin-left: 210px;
   }
 
 /* sidebar */
@@ -27,17 +31,22 @@
 
   .sidebar {
     float: left;
-    max-width: 650px;
+    max-width: 728px;
     margin-left: 20px;
   }
 /* adjusting margins on sidebar and main section to match the solution photoes */
   .main-section {
     width: 100%;
-    max-width: 650px;
+    max-width: 728px;
     margin: 0 0 40px 20px;
   }
   #logo {
     margin-left: 20px;
+  }
+  /* adjust portfolio images*/
+  .work {
+    width: 310px;
+    margin: 20px 0 0;
   }
 
 }

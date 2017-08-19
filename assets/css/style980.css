@@ -10,6 +10,11 @@
       margin: 0 auto;
       clear: both;
     }
+
+  /* adjust image width and margins */
+  .auth-image {
+    width: 290px;
+  }
     
 /*adjust floats */
 
