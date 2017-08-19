@@ -1,4 +1,4 @@
-/* making changes for 764 resolution*/
+/* making changes for 980 resolution*/
 
 @media only screen and (max-width: 980px) {
 /* general */
@@ -15,7 +15,6 @@
 
   nav {
     float: left;
-    margin-top: 25px;
   }
   .sidebar {
     float: left;
